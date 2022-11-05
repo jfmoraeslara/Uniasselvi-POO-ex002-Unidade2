@@ -1,8 +1,8 @@
 package application;
 
-public class Computadores {
+public class Computadores extends Produtos {
 	/*trabalhando encapsulamento alguns tipos existentes
-	 *  public, private, protected, em branco*/
+	 *  public, private, protected, em branco*/	
 	private String processador;
 	private int memoria;
 	private String sistemaOper;
