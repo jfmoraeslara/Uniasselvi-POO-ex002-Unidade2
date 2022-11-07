@@ -14,7 +14,7 @@ public class Program {
 		micro.setMarca("LG");
 		micro.setAutolimpante(true);
 		
-		System.out.println("Computador");
+		/*System.out.println("Computador");
 		System.out.println("Preço: " + comp.getPreco());
 		System.out.println("Marca: " + comp.getMarca());
 		System.out.println("Memória: " + comp.getMemoria());
@@ -22,7 +22,11 @@ public class Program {
 		System.out.println("----------------------------------");
 		System.out.println("Microondas");
 		System.out.println("Preço: " + micro.getPreco());
-		System.out.println("Marca: " + micro.getMarca());	
-
+		System.out.println("Marca: " + micro.getMarca());*/
+		
+		//polimorfismo
+		comp.promocao();
+		micro.promocao();
+		
 	}
 }

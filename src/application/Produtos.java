@@ -23,5 +23,11 @@ public class Produtos {
 	}
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
-	}	
+	}
+	
+	// polimorfismo
+	public void promocao() {
+		System.out.println("Este produto não está em promoção!");
+	}
+	
 }
